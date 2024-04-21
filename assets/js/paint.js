@@ -5,10 +5,16 @@ function configureListeners() {
     document.getElementById(images[i].id).addEventListener('mouseover', addOpacity, false)
     document.getElementById(images[i].id).addEventListener('mouseout', removeOpacity, false)
 // !left off here. Working on getting eventListener mouseover to show paint color and price
-//     document.getElementById(color-price)[i].addEventListener('mouseover',)
-// }
+//    function configureListeners() {
+//     let images = document.getElementsByTagName('img');
+
+//     for (var i = 0; i < images.length; i++) {
+//         // Attach event listeners to each image for mouseover and mouseout events
+//         images[i].addEventListener('mouseover', addInfo);
+//         images[i].addEventListener('mouseout', clearInfo);
+    }
      }
-}
+
 
 function addOpacity(event) {
    if (!this.classList.contains('dim')) {
